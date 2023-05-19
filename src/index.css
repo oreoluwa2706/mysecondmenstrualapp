@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  position: relative;
 }
 .header {
   display: flex;
@@ -30,7 +31,7 @@
   border-radius: 20px;
   box-shadow: 0px 10px 10px 0px #f20d81;
   margin-bottom: 100px;
-  margin-left: -140px;
+  margin-left: -20vw;
 }
 .cycles {
   font-size: x-large;
@@ -38,12 +39,14 @@
 
 .mom {
   display: flex;
-  margin-left: -200px;
-  width: 70vw;
-  justify-content: space-between;
+  margin-left: -40vw;
+  width: 70%;
+  justify-content: center;
 }
 h2 {
   font-size: large;
+
+  width: 100%;
 }
 .myfomt {
   font-size: 12px;
@@ -53,6 +56,7 @@ h2 {
     max-width: 930;
     min-width: 500px;
     width: 80vw;
+    margin-left: -40vw;
   }
 }
 @media screen and (max-width: 500px) {
@@ -60,7 +64,7 @@ h2 {
     display: none;
   }
   .calendar {
-    margin-left: -100px;
+    margin-left: -20vw;
   }
   .cycles {
     margin-left: -150px;
@@ -70,8 +74,8 @@ h2 {
     font-size: 400px;
   }
   .mom {
-    margin-left: -200px;
-    width: 95vw;
+    margin-left: -40vw;
+    width: 95w;
     justify-content: space-between;
   }
   h2 {
